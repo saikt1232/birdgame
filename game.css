@@ -1,0 +1,31 @@
+
+.nest {
+    padding: 40px;
+    width: 600px;
+    height:600px;
+    background-color: #f89dac;
+    position: absolute;
+    display: flex;  
+}
+
+
+.bird{ 
+    background-image: url('bird.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+
+.bird-reverse {
+    transform: rotate(180deg);
+}
+
+.buttons {
+    right: 0;
+    bottom: 0;
+    position: absolute;
+}
